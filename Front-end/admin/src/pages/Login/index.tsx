@@ -16,26 +16,23 @@ const Login: React.FC = () => {
       <Card className="container" >
         <Grid container spacing={0}>
 
-          <Grid xs={6}>
+          <Grid md={6} sm={12} xs={12}>
 
             <p id="title">Login</p>
             <form noValidate autoComplete="off" onSubmit={handleLogin}>
-              <Grid xs={12} className="form_inpurt">
+              <Grid md={12} className="form_inpurt">
                 <TextField id="standard-basic" label="Email" fullWidth />
               </Grid>
-              <Grid xs={12} className="form_inpurt">
+              <Grid md={12} className="form_inpurt">
                 <TextField id="standard-basic" label="Senha" fullWidth />
               </Grid>
-
-
               <p id='link'>Não tem conta? <a href="url" >cadastre-se</a></p>
-
               <Button variant="contained" className="button" color="primary" type='submit'>
                 Acessar
               </Button>
             </form>
           </Grid>
-          <Grid xs={6} id="img">
+          <Grid md={6} sm={12} xs={12} id="img">
           </Grid>
 
         </Grid>

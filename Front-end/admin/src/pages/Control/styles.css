@@ -1,0 +1,22 @@
+.divBodyControls {
+	margin-left: 5rem;
+	margin-top: 5rem;
+	margin-right: 2rem;
+}
+
+.body-pageControls {
+	background: rgba(23, 120, 180, 0.055);
+	width: 100%;
+	height: 100%;
+	border-radius: 1px;
+	padding: 3rem;
+}
+
+.uploadPictureContainer {
+	width: 10% !important;
+	margin: 1% !important;
+}
+
+.fileContainer .deleteImage {
+	background: rgb(23, 120, 180) !important;
+}

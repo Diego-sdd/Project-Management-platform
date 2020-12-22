@@ -1,0 +1,14 @@
+#title_h1 {
+	margin-left: 0.5rem;
+	font-size: 18pt;
+	color: rgb(56, 56, 56);
+}
+
+.line {
+	border-bottom: 3px solid;
+	max-width: 7%;
+	margin-top: 0.70rem;
+	color: rgb(56, 56, 56);
+	margin-left: 0.5rem;
+	margin-bottom: 2rem;
+}

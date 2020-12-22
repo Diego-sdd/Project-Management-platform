@@ -1,19 +1,21 @@
 import React from 'react';
 import './styles.css'
 import { FaAppStoreIos, FaUserCircle } from 'react-icons/fa';
-const Home: React.FC = () => {
+const Nav: React.FC = () => {
 	return (
 		<body>
 			<div id="lateral">
 				<div id="menu">
 
-					<FaUserCircle size={80} id="img_user" />
+					<a href="/profileADM"><FaUserCircle size={64} id="img_user" /></a>
 
 					<ul className="box">
-						<li><a href="#">Home <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
-						<li><a href="#">Controle <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
-						<li ><a href="#">Estoque<span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
-						<li ><a href="#">Sair <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
+						<li><a href="/home">Home <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
+						<li><a href="/controls">Controle <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
+						<li ><a href="/#">Estoque<span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
+						<li ><a href="/#">Sair <span id="icon" ><FaAppStoreIos size={37} /></span></a></li>
+
+						<li ><a href="/#"><span id="icon" className='icon-logof'><FaAppStoreIos size={37} /></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -21,4 +23,4 @@ const Home: React.FC = () => {
 	)
 }
 
-export default Home;
+export default Nav;
